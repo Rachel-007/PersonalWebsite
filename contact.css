@@ -57,3 +57,35 @@ a {
     text-decoration: none;
     font-size: x-large;
 }
+form {
+    background-color: #ffffff; /* Form background color */
+    padding: 20px; /* Adds padding inside the form */
+    border-radius: 10px; /* Rounds the corners of the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    max-width: 600px; /* Limits the form width */
+    margin: 20px auto; /* Centers the form horizontally */
+}
+
+form label {
+    display: block; /* Ensures labels are on their own line */
+    margin-bottom: 8px; /* Adds space below the label */
+    font-weight: bold; /* Makes the label text bold */
+    color: #333333; /* Label text color */
+}
+
+form input, form textarea, form button {
+    width: 100%; /* Makes inputs and textarea take up full width */
+    padding: 10px; /* Adds padding inside the inputs */
+    margin-bottom: 15px; /* Adds space below each input */
+    border: 1px solid #cccccc; /* Adds a border to inputs */
+    border-radius: 5px; /* Rounds the corners of inputs */
+    font-size: 16px; /* Sets font size */
+}
+
+form button {
+    background-color: #0080ff; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none; /* Removes button border */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    font-size: 16px; /* Sets font size */
+}
